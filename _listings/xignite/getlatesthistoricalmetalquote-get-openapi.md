@@ -1,12 +1,13 @@
+---
 swagger: "2.0"
 x-collection-name: Xignite
-x-complete: 1
+x-complete: 0
 info:
-  title: Xignite VWAP
-  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
+  title: Xignite Global Metals Get Latest Historical Metal Quote
+  description: Get historical metal quote by a given time.
   version: 1.0.0
-host: www.xignite.com
-basePath: xVWAP.json/XigniteVWAP
+host: globalmetals.xignite.com
+basePath: xGlobalMetals.json/XigniteGlobalMetals
 schemes:
 - http
 produces:
@@ -231,3 +232,17 @@ paths:
       - Base
       - Metal
       - Price
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

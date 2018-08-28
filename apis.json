@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Metals",
+	"description": "This is a repository of metals APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/metals.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://metals.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Metals",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/metals/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "nFusion Solutions",
+			"x-api-slug": "nfusion-solutions",
+			"description": "nFusion Solutions ecosystem of products and solutions lets you power your apps, websites and software with precious metals market data directly from exchanges around the world. Built on the Azure Cloud platform, nFusion delivers a reliable and scalabl...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg",
+			"humanURL": "http://www.nfusionsolutions.com",
+			"baseURL": "https://api.nfusionsolutions.biz//",
+			"tags": "Metals",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/metals/master/_listings/nfusion-solutions/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Metals",
+	"include": [
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/metals/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "nFusion Solutions",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/metals/master/_listings/nfusion-solutions/apis.yaml"
+		}
+	]
+}
